@@ -1,0 +1,151 @@
+body {
+    font-family: "Poppins", sans-serif;
+    color: #1f1f1f;
+  }
+  #title {
+    background-color: #ff0073;
+    color: #fff;
+  }
+  h1 {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: #fff;
+  }
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #1f1f1f;
+  }
+  h3 {
+    font-family: "Poppins", sans-serif;
+    color: #1f1f1f;
+    font-weight: bolder;
+  }
+  .icon {
+    color: #ff0000;
+    margin-bottom: 5%;
+  }
+  .icon :hover {
+    color: #ff4c68;
+  }
+  .container-fluid {
+    padding: 3% 15% 7%;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  .navbar-brand {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+  .nav-item {
+    padding: 0 18px;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Poppins";
+    font-weight: bold;
+    color:black;
+  }
+  
+  /* Download buttons */
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+  
+  /* iphone image */
+  .iphone-img {
+    width: 120%;
+    position: absolute;
+    left:10
+  }
+  .rotate {
+    transform: rotate(22deg);
+  }
+  
+  /* features */
+  #features {
+    padding: 5% 15%;
+    text-align: center;
+    line-height: 1.5;
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+  }
+  .feature-box {
+    padding: 5%;
+  }
+  
+  /* testimonials */
+  #testimonials {
+    text-align: center;
+    background-color: #ff0073;
+    color: #fff;
+  }
+  .carousel-item {
+    padding: 7% 15%;
+  }
+  .testimonial-img {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+  }
+  
+  /* press */
+  #press {
+    background-color: #ff0073;
+    text-align: center;
+    padding-bottom: 3%;
+  }
+  .press-img {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+  
+  /* pricing */
+  #pricing {
+    padding: 100px;
+    text-align: center;
+  }
+  .pricing-column {
+    padding: 3% 2%;
+  }
+  
+  #cta {
+    background-color: #ff0073;
+    text-align: center;
+    padding: 100px 15% 40px;
+  }
+  #footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+    }
+  #copyright {
+      font-size: 20px;
+      font-family:monospace; 
+    }
+  .spanSpace {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .social {
+    padding-bottom: 4%;
+  }
+  
+  @media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+    .iphone-img {
+      position: static;
+      transform: rotate(0);
+    }
+  }
